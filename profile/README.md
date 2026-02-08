@@ -14,5 +14,3 @@ The latest iteration of VelocityDB has established new performance benchmarks fo
 *   **Optimized Memory Management:** Features a zero-allocation caching layer and pre-allocated memtables for predictable performance under heavy load.
 *   **Versatile Operational Modes:** Supports both a high-durability production mode with Write-Ahead Logging (WAL) and an ultra-fast memory-only mode for transient data processing.
 *   **Rust-Powered Reliability:** Leverages Rust’s strict ownership model to provide a memory-safe environment with a minimal 1 MB binary footprint.
-
-VelocityDB is designed for modern infrastructure, offering a significant performance advantage over traditional solutions such as RocksDB, LMDB, and LevelDB. It provides the ideal foundation for edge computing, real-time analytics, and high-frequency financial systems.
